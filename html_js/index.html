@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+        <h1>Formulário</h1>
+        <form id="form-deposito">
+            <label > Número A</label>
+            <input type="number" id="numero-A" required placeholder="Coloque um número" />
+            <br />
+            <label > Número B</label>
+            <input type="number" id="numero-B" required placeholder="Coloque um número" />
+            <br />
+            <br />
+            <button type="submit" id="btn-validar">
+                Validar
+            </button>
+            <br />
+            <br />
+            <p class="sucess-message">
+            </p>
+            <p class="error-message">
+            </p>
+        </form>
+        </div>
+    </header>
+    <script src="./main.js"></script>
+    </body>
+</html>
